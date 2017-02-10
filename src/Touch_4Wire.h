@@ -8,8 +8,8 @@
 #ifndef _ADAFRUIT_TOUCH4WIRE_H_
 #define _ADAFRUIT_TOUCH4WIRE_H_
 
-#if defined(SPARK)
-#include "application.h"
+#if defined(PARTICLE)
+#include <Particle.h>
 
 // some very useful macros for Spark Core and porting Arduino libraries for it
 

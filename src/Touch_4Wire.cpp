@@ -7,8 +7,8 @@
 
 #include "Touch_4Wire.h"
 
-#if defined (SPARK)
-#include "application.h"
+#if defined (PARTICLE)
+#include <Particle.h>
 #else
 #include "pins_arduino.h"
 #include "wiring_private.h"
